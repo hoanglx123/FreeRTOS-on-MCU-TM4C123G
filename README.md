@@ -9,7 +9,7 @@
 	|_Application 
 	| |_AppMain (Contain main function used to start up FreeRTOS)
 	| | |_Inc
-	| | |_FreeRTOSConfig.h (Configure stack size, priorities, ... used in FreeRTOS)
+	| | | |_FreeRTOSConfig.h (Configure stack size, priorities, ... used in FreeRTOS)
 	| | |_Src
 	| | | |_startup.c (Define the vector table corresponding to the specified MCU and call main function after initilaztion)  
 	| | | |_startup_freertos.c 
