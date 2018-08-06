@@ -22,13 +22,13 @@
 	| |_Makefile 
 	|_Drivers 
 	| |_BSP (Board Support Package)
-	|   |_Libs (Libraries from the third-party)
-	|   |_Utils
-	|   |_Makefile 
+	| |_Libs (Libraries from the third-party)
+	| |_Utils
+	| |_Makefile 
 	|_FreeRTOS
-	|   |_License 
-	|   |_Source
-	|   |_Makefile 
+	| |_License 
+	| |_Source
+	| |_Makefile 
 	|_Config.mk (Configure Toolchain or declare common definitions for Makefile)
 	|_Makefile  
 
